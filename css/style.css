@@ -1,15 +1,225 @@
-p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-.footer{
-background-color: aqua;
-padding-top: 5em;
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  color: var(--color-secondary);
+  background: var(--color-bg);
+}
+
+header .header-text h1 {
+  font-weight: bold;
+}
+
+header .header-text p {
+  color: #7d7987;
+  margin: 2em 0 2em 0;
+}
+
+header .header-text button {
+  background: #458ff6;
+  color: #fff;
+  border-radius: 55px;
+  outline: none;
+  border: 0;
+  padding: 10px 30px 10px 30px;
+}
+
+header {
+  margin-top: 2em;
+}
+
+header .element {
+  position: absolute;
+  top: 10%;
+}
+
+.services {
+  margin-top: 10rem;
+}
+
+.services .element {
+  position: absolute;
+}
+
+.services h1 {
+  font-weight: bold;
+}
+
+.services hr {
+  width: 5%;
+  border: 1px solid #000;
+}
+
+.services p {
+  color: #7d7987;
+}
+
+.services .col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 32%;
+  flex: 0 0 32%;
+  max-width: none;
+}
+
+.services .card {
+  background: #fff;
+  padding: 2em;
+  border: 0;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 20px 0px #e5e9f6;
+  box-shadow: 2px 2px 20px 0px #e5e9f6;
+}
+
+.services .card h3 {
+  margin: 1em 0 1em 0;
+}
+
+.services button {
+  background: #fff;
+  font-weight: bold;
+  color: #458ff6;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #458ff6;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.footer {
+  background: rgb(17, 55, 82);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 55, 82, 1) 0%,
+    rgba(75, 110, 133, 1) 0%,
+    rgba(0, 144, 255, 1) 47%
+  );
+  padding-top: 5em;
+  margin-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer b {
+  color: white;
+}
+
+.perfil-footer {
+  display: flex;
+  align-items: center;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links-footer p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-right: 2em;
+}
+
+.img-perfil {
+  width: 1cm;
+  padding-right: 1em;
 }
 
 .flex-container {
-    display: flex;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.bloco-1 {
+  display: flex;
+  flex-flow: nowrap;
 }
 
 .perfil {
-    display: flex;
-    align-items: center;
+  justify-content: flex-start;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: dimgray;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.formulario {
+  background-color: #458ff6;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.formulario label, .formulario h1 {
+  color: white;
+}
+
+.formulario hr {
+  border: 1px solid white !important;
+}
+
+
+.providers {
+  margin-top: 5em;
+}
+
+.providers h2 {
+  font-weight: bold;
+}
+
+.providers p {
+  color: #7D7987;
+  margin: 3em 0 3em 0;
+}
+
+.providers hr {
+  margin: 3em 0 3em 0;
+  width: 15%;
+  text-align: left;
+  margin-left: 0;
+  border: 1px solid #000;
+}
+
+.providers button {
+  background: #fff;
+  font-weight: bold;
+  color: #458FF6;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #458FF6;
+  border-radius: 25px;
+  outline: 0;
 }
