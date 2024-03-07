@@ -88,6 +88,38 @@ header .element {
   outline: 0;
 }
 
+.providers {
+  margin-top: 5em;
+}
+
+.providers h2 {
+  font-weight: bold;
+}
+
+.providers p {
+  color: #7D7987;
+  margin: 3em 0 3em 0;
+}
+
+.providers hr {
+  margin: 3em 0 3em 0;
+  width: 15%;
+  text-align: left;
+  margin-left: 0;
+  border: 1px solid #000;
+}
+
+.providers button {
+  background: #fff;
+  font-weight: bold;
+  color: #f645c1;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border: 2px solid #f645c1;
+  border-radius: 25px;
+  outline: 0;
+}
+
 .footer {
   background: linear-gradient(
     0deg,
@@ -106,6 +138,7 @@ header .element {
 
 .footer b {
   color: white;
+  margin-bottom: 1rem;
 }
 
 .perfil-footer {
@@ -118,7 +151,7 @@ header .element {
   justify-content: space-around;
 }
 
-.links-footer p {
+.links-footer p, .links-footer b {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -188,37 +221,4 @@ header .element {
 
 .formulario hr {
   border: 1px solid white !important;
-}
-
-
-.providers {
-  margin-top: 5em;
-}
-
-.providers h2 {
-  font-weight: bold;
-}
-
-.providers p {
-  color: #7D7987;
-  margin: 3em 0 3em 0;
-}
-
-.providers hr {
-  margin: 3em 0 3em 0;
-  width: 15%;
-  text-align: left;
-  margin-left: 0;
-  border: 1px solid #000;
-}
-
-.providers button {
-  background: #fff;
-  font-weight: bold;
-  color: #f645c1;
-  padding: 10px 50px 10px 50px;
-  text-align: center;
-  border: 2px solid #f645c1;
-  border-radius: 25px;
-  outline: 0;
 }
